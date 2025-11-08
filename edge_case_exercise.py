@@ -12,10 +12,10 @@ def move(my_list, direction=None):
         my_list[index_of_one + 1] = 1
         return my_list
     elif direction == 'left':
-      if my_list[index_of_one] == 0 :
-       return my_list
+      if index_of_one == 0 :
+        return my_list
       else: 
-       my_list [index_of_one] = 0
-       my_list [index_of_one - 1] = 1
-      
-      return my_list
+        my_list [index_of_one] = 0
+        my_list [index_of_one - 1] = 1
+        return my_list
+
