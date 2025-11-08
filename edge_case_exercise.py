@@ -1,4 +1,4 @@
-def move(my_list, direction = None):
+def move(my_list, direction):
    
     index_of_one = my_list.index(1)
     length = len(my_list)
